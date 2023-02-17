@@ -65,10 +65,6 @@ a {
     background: #EB443F;
 }
 
-.header__link_button:hover {
-
-}
-
 .bottom {
     background: #000915;
     height: 556px;
@@ -98,6 +94,10 @@ a {
     align-items: flex-end;
     background-position: center;
     background-size: cover;
+}
+
+.item__box_item:nth-child(1) {
+    background-image: url(img/back_item1.png);
 }
 
 .item__box_item:nth-child(1) {
