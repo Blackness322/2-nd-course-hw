@@ -31,13 +31,12 @@ a {
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
-    color: #FFFFFF;
+    color: #FFFFFF; 
     padding-top: 217px;
     padding-bottom: 32px;
 }
 
 .header__text_desc {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -62,6 +61,14 @@ a {
     text-align: center;
 }
 
+.header__link_button:hover {
+    background: #EB443F;
+}
+
+.header__link_button:hover {
+
+}
+
 .bottom {
     background: #000915;
     height: 556px;
@@ -84,12 +91,13 @@ a {
 }
 
 .item__box_item {
-    background-image: url(img/back_item1.png);
     width: 379px;
     height: 300px;
     border-radius: 16px;
     display: flex;
     align-items: flex-end;
+    background-position: center;
+    background-size: cover;
 }
 
 .item__box_item:nth-child(1) {
