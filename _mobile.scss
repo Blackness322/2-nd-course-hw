@@ -10,7 +10,10 @@
 
     .header {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
         &__text {
             padding-top: 238px;
             font-size: 32px;
