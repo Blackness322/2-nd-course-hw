@@ -61,7 +61,7 @@ a {
 }
 
 .header__link_button:hover {
-  background: #EB443F;
+    background: #EB443F;
 }
 
 .bottom {
@@ -97,6 +97,10 @@ a {
 
 .item__box_item:nth-child(1) {
   background-image: url(img/back_item1.png);
+}
+
+.item__box_item:nth-child(1) {
+    background-image: url(img/back_item1.png);
 }
 
 .item__box_item:nth-child(2) {
