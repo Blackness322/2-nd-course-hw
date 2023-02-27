@@ -31,10 +31,10 @@ const obj = {
 for (let salary in obj) {
     console.log(`${salary} — зарплата ${obj[salary]} долларов`);
 }
-
 //Задание 5
-for (let n = 1000, num = 4; n > 50; n /= 2) {
-    console.log(n);
+let num = 0
+for (let n = 1000; n > 50; n /= 2, num++) {
+    console.log(num,n);
 }
 
 //Задание 6
