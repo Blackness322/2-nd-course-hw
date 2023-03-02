@@ -111,6 +111,60 @@ a {
   border: 3px solid #44D2FF;
 }
 
+.seasons {
+  background: #000915;
+  display: flex;
+}
+.seasons__box {
+  display: flex;
+}
+.seasons__box_about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 282px;
+  padding-bottom: 282px;
+  padding-right: 135px;
+  gap: 32px;
+}
+.seasons__box_text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.seasons__box_desc {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.seasons__box_button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.seasons__box_button:hover {
+  background: #EB443F;
+}
+.seasons__box_img {
+  width: 485px;
+  height: 333px;
+  padding-bottom: 233px;
+  padding-top: 233px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -153,5 +207,39 @@ a {
   }
   .bottom {
     height: 1221px;
+    padding-bottom: 51px;
+  }
+  .seasons {
+    display: flex;
+    align-items: center;
+  }
+  .seasons__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .seasons__box_about {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .seasons__box_text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .seasons__box_desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .seasons__box_img {
+    width: 344px;
+    height: 236px;
+    padding-top: 64px;
+    padding-bottom: 85px;
   }
 }/*# sourceMappingURL=style.css.map */
