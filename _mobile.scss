@@ -13,7 +13,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         &__text {
             padding-top: 238px;
             font-size: 32px;
@@ -31,8 +31,8 @@
         }
 
         &__link_button {
-        margin-left: 70px;
-        margin-right: 70px;
+            margin-left: 70px;
+            margin-right: 70px;
         }
     }
 
@@ -48,5 +48,46 @@
 
     .bottom {
         height: 1221px;
+        padding-bottom: 51px;
+    }
+
+
+    .seasons {
+        display: flex;
+        align-items: center;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+
+            &_about {
+                padding-bottom: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                display: flex;
+                align-items: center;
+            }
+
+            &_text {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+            }
+
+            &_desc {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }
+
+            &_img {
+                width: 344px;
+                height: 236px;
+                padding-top: 64px;
+                padding-bottom: 85px;
+            }
+        }
     }
 }
