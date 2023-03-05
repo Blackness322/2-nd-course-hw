@@ -74,7 +74,7 @@ isNumValid("five", 5);
 
 let userNum = prompt("Введите число");
 
-let isNumValidCubed = (userNum) => {
+const isNumValidCubed = (userNum) => {
     if (!isNaN(userNum)) {
         return(`${userNum} в кубе равняется ${userNum ** 3}`);
     } else {
