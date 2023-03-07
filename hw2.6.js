@@ -26,7 +26,7 @@ console.log(numbers);
 
 //Задание 5
 
-let arrnum = [1, 1, 1];
+const arrnum = [1, 1, 1];
 
 arrnum.push(2, 2, 2);
 console.log(arrnum);
@@ -34,9 +34,7 @@ console.log(arrnum);
 //Задание 6
 
 let arr6 = [9, 8, 7, "a", 6, 5];
-arr6.sort();
-arr6.pop();
-console.log(arr6);
+console.log(arr6.filter(item => !isNaN(item)));
 
 //Задание 7
 
@@ -48,9 +46,7 @@ console.log(search);
 //Задание 8
 
 let letters = 'abcdef';
-letters = letters.split('');
-letters = letters.reverse();
-letters = letters.join('');
+letters = letters.split('').reverse().join('')
 console.log(letters);
 
 //Задание 9
@@ -61,9 +57,10 @@ console.log(result);
 
 //Задание 10
 
-const tenthArray = [4, 8, 1, 7, 2, 6];
-let tenthCounter = 0;
-for (const el of tenthArray) {
-tenthCounter += el;
-console.log(tenthCounter);
+let arr10 = [4, 8, 1, 7, 2, 6];
+let f = 0;
+while (arr10[f + 1] !== undefined) {
+  console.log(arr10[f] + arr10[f + 1]);
+  f++;
 }
+console.log(arr10[f]);
