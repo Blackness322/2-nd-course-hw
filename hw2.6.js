@@ -22,7 +22,19 @@ let numbers = [1, 3, 5, 10, 20];
 numbers = numbers.join(" ");
 console.log(numbers);
 
-//Задание 4  Я так и не понял как это сделать.
+//Задание 4
+
+let arr4 = [];
+
+for (let i = 0; i < 3; i++) {
+  arr4[i] = [];
+
+  for (let j = 1; j <= 3; j+=1) {
+    arr4[i].push(1);
+  }
+}
+
+console.log(arr4);
 
 //Задание 5
 
@@ -64,3 +76,4 @@ while (arr10[f + 1] !== undefined) {
   f++;
 }
 console.log(arr10[f]);
+
