@@ -76,4 +76,3 @@ while (arr10[f + 1] !== undefined) {
   f++;
 }
 console.log(arr10[f]);
-
